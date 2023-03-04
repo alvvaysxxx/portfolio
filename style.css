@@ -1,0 +1,149 @@
+body {
+    background-color: #080808;
+}
+
+.urion {
+    color: #0197F6;
+    padding-left: 55px;
+}
+
+.prof {
+    color: #FFFFFF;
+    padding-left: 55px;
+}
+
+.section1 {
+    width: 100%;
+    height: fit-content;
+}
+
+.welcome {
+    padding-top: 55px;
+
+}
+
+.section2 {
+    margin-top: 100px;
+    
+}
+
+.section3 {
+    padding-left: 55px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.section4 {
+    margin-top: 40px;
+}
+
+.section5 {
+    margin-top: 40px;
+    padding-bottom: 50px;
+}
+
+.sample1{
+    color: white;
+    padding-left: 55px;
+    display: inline-block;
+}
+
+
+.text{
+    color: white;
+}
+
+.text-boxes {
+    margin-left: 55px;
+}
+
+.text-box {
+    width: fit-content;
+    height: fit-content;
+    border: 3px solid #0197F6;
+    border-radius: 10px;
+    padding: 10px;
+    box-sizing: border-box;
+    padding-left: 25px;
+    padding-right: 25px;
+    display: inline-block;
+}
+
+.rates {
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center; 
+    justify-content: space-evenly;
+    gap: 15px;  
+}
+
+.card {
+    width: 300px;
+}
+
+.social {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.social-media {
+    width: 75px;
+    height: 75px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 570px) {
+    .urion {
+        padding-left: 25px;
+    }
+    .prof {
+        padding-left: 25px;
+    }
+    .sample1{
+        color: white;
+        padding-left: 25px;
+        display: inline-block;
+    }
+    .text-boxes {
+        margin-left: 25px;
+    }
+
+    .section3 {
+        padding-left: 25px;
+    }
+}
+
+@media (max-width: 330px) {
+    .urion {
+        padding-left: 15px;
+    }
+    .prof {
+        padding-left: 15px;
+    }
+    .sample1{
+        color: white;
+        padding-left: 15px;
+        display: inline-block;
+    }
+    .text-boxes {
+        margin-left: 15px;
+    }
+
+    .section3 {
+        padding-left: 15px;
+    }
+}
